@@ -38,7 +38,11 @@ li:hover{
     border-top: 2px solid rgb(0, 0, 0);
     color: black;
     padding-top: 8px;
-    transition: 0.3s;
+}
+
+li.border{
+
+    transform: translate(-10px, 10px);
 }
 
 li.border:hover{
@@ -58,7 +62,7 @@ li:hover .sub-menu{
     margin: 0;
     display: none;
     position: absolute;
-    width: 100px;
+    width: 110px;
     z-index: 1;
 }
 
