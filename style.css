@@ -7,6 +7,10 @@ body{
     background: rgba(16, 121, 77, 0.788);
 }
 
+/***************************************/
+/*************** Naviguation ***********/
+/***************************************/
+
 nav{
     position: fixed;
     top: 0px;
@@ -40,7 +44,6 @@ li:hover{
 }
 
 li.border{
-    border-radius: 5px;
     transform: translate(-10px, 10px);
 }
 
@@ -70,6 +73,17 @@ li:hover .sub-menu{
     right: 0px;
     top: 0px;
 }
+/***************************************/
+/*************** main ******************/
+/***************************************/
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
 
 p{
     text-align: center;
@@ -84,13 +98,38 @@ img{
     border-radius: 10px;
 }
 
-h1{
-    margin-top: 100px;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 4rem;
-    margin-bottom: 40px;
+
+
+
+/***************************************/
+/*************** the end ***************/
+/***************************************/
+
+
+#end{
+    background: rgb(95, 95, 95);
+    color: white;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'te devby';
 }
+
+
+#textEnd{
+    grid-area: te;
+}
+
+#dev{
+    grid-area: devby;
+}
+
+
+
+
+/***************************************/
+/************** > Debug ****************/
+/***************************************/
+
 
 @media screen and (max-width: 525px) {
     #plus{
@@ -108,3 +147,10 @@ h1{
     *{
         display: none;
     }
+}
+
+
+
+/***************************************/
+/************** exemple ****************/
+/***************************************/

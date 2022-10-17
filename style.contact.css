@@ -1,0 +1,59 @@
+/************* grid page **************/
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'img form';
+}
+
+
+
+img{
+    grid-area: img;
+}
+
+/************* grid formulaire **************/
+
+
+form{
+    grid-area: form;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        'i1 i2'
+        'ta ta'
+        'bt bt';
+}
+
+
+
+input, textarea{
+    margin: 5px;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+    font-size: 1.2rem;
+}
+
+
+
+/************* grid stettings **************/
+
+
+
+#name{
+    grid-area: i1;
+}
+
+#surname{
+    grid-area: i2;
+}
+
+textarea{
+    grid-area: ta;
+}
+input[type="submit"] {
+    grid-area: bt;
+}
