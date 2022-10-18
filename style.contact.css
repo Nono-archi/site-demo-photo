@@ -12,8 +12,13 @@ img{
     grid-area: img;
 }
 
-/************* grid formulaire **************/
+#jsp{
+    font-size: 1.5rem;
+}
 
+
+/************* grid formulaire **************/
+/* 
 
 form{
     grid-area: form;
@@ -35,20 +40,33 @@ input, textarea{
     padding: 5px;
     resize: none;
     font-size: 1.2rem;
+    border-radius: 10px;
+    border: 2px solid blue;
+    color: gray;
 }
 
 
+input:hover, textarea:hover{
+    border: 2px solid purple;
+}
 
-/************* grid stettings **************/
+
+input:focus, textarea:focus{
+    border: 2px solid red;
+}
+
+/************* grid stettings **************
 
 
 
 #name{
     grid-area: i1;
+    height: 50px;
 }
 
 #surname{
     grid-area: i2;
+    height: 50px;
 }
 
 textarea{
@@ -56,4 +74,5 @@ textarea{
 }
 input[type="submit"] {
     grid-area: bt;
-}
+    cursor: pointer;
+} */
