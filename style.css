@@ -17,7 +17,7 @@ nav{
     right: 0px;
     left: 0px;
     background: rgb(255, 123, 0);
-    margin: 0px auto;
+    margin: 0 auto;
     border-bottom: 2px solid black;
 }
 
@@ -25,33 +25,33 @@ a{
     text-decoration: none;
     color: black;
     display: block;
-    padding: 10px;
 }
 
 li{
     background: rgb(255, 123, 0);
     list-style: none;
-    padding: 10px;
     display: inline-block;
     position: relative;
+    padding: 20px;
 }
 
 li:hover{
     background: rgb(192, 191, 191);
     border-top: 2px solid rgb(0, 0, 0);
     color: black;
-    padding-top: 8px;
+    padding-top: 18px;
 }
 
 li.border{
-    transform: translate(-10px, 10px);
+    transform: translate(-20px, 20px);
 }
 
 li.border:hover{
     border-top: 0;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     border-left: 2px solid rgb(0, 0, 0);
-    padding-left: 8px;
+    /* padding-left: 8px; */
+    padding-right: 18px;
 }
 
 li:hover .sub-menu{
